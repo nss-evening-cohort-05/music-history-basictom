@@ -1,6 +1,7 @@
 /* ############################# */
 /*         General Styling       */
 /* ############################# */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
   padding: 0;
@@ -13,6 +14,7 @@ body {
   background-image: url("music_background.jpg");
   background-size: cover;
   color: #fbfbfb;
+  font-family: 'Roboto', sans-serif;
 }
 a {
   text-decoration: none;
