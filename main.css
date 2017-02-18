@@ -1,5 +1,7 @@
 /* ############################# */
 /*         General Styling       */
+/* ############################# */
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +10,9 @@ body {
   font-size: 1.3em;
   font-family: Helvetica, sans-serif;
   font-weight: normal;
-
+  background-image: url("music_background.jpg");
+  background-size: cover;
+  color: #fbfbfb;
 }
 a {
   text-decoration: none;
@@ -16,7 +20,12 @@ a {
 ul {
   list-style-type: none;
 }
-/* ------ main container's styling ---------- */
+
+.bgcolor {
+  background-color: rgba(10, 9, 9, 0.85);
+}
+
+/* ##################### */
 
 .container {
   margin: 0 auto;
@@ -25,17 +34,33 @@ ul {
   background-image: url();
 }
 .header {
-  width: 100%;
+  width: 94%;
   padding: 20px;
   margin: 20px;
 }
 .sidebar {
-  width: 30%;
-  padding: 20px;
-  margin: 20px;
+  width: 20%;
+  float: left;
+  background: transparent;
 }
-.main-content {
-  width: 70%;
-  padding: 20px;
+.form-container {
+  margin: 0 auto;
   margin: 20px;
+  padding: 15px;
+}
+.content {
+  width: 80%;
+  float: right;
+  background: transparent;
+  height: 100%;
+}
+.contents-container {
+  margin: 20px;
+  padding: 15px;
+}
+.navbar ul li {
+  display: inline;
+}
+.track-container {
+  padding: 10px 15px;
 }
